@@ -1,0 +1,200 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.Cobweb -A 1.0 -C 0.0028209479177387815 -save-data -S 42
+Relation:     Series
+Instances:    50
+Attributes:   14
+              Nombre
+              Genero principal
+              Pais de origen
+              Cantidad de temporadas
+              Cantidad de episodios
+              Duracion del episodio
+              Personaje principal
+              Canal o plataforma
+              Camara setup
+              Año primera emision
+              Año ultima emision
+              Idioma original
+              Puntuacion IMDb
+              Clasificacion por edades
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+Number of merges: 11
+Number of splits: 7
+Number of clusters: 69
+
+node 0 [50]
+|   leaf 1 [1]
+node 0 [50]
+|   node 2 [12]
+|   |   node 3 [4]
+|   |   |   leaf 4 [1]
+|   |   node 3 [4]
+|   |   |   leaf 5 [1]
+|   |   node 3 [4]
+|   |   |   leaf 6 [1]
+|   |   node 3 [4]
+|   |   |   leaf 7 [1]
+|   node 2 [12]
+|   |   leaf 8 [1]
+|   node 2 [12]
+|   |   node 9 [2]
+|   |   |   leaf 10 [1]
+|   |   node 9 [2]
+|   |   |   leaf 11 [1]
+|   node 2 [12]
+|   |   leaf 12 [1]
+|   node 2 [12]
+|   |   node 13 [3]
+|   |   |   leaf 14 [1]
+|   |   node 13 [3]
+|   |   |   leaf 15 [1]
+|   |   node 13 [3]
+|   |   |   leaf 16 [1]
+|   node 2 [12]
+|   |   leaf 17 [1]
+node 0 [50]
+|   node 18 [24]
+|   |   leaf 19 [1]
+|   node 18 [24]
+|   |   node 20 [2]
+|   |   |   leaf 21 [1]
+|   |   node 20 [2]
+|   |   |   leaf 22 [1]
+|   node 18 [24]
+|   |   node 23 [6]
+|   |   |   leaf 24 [1]
+|   |   node 23 [6]
+|   |   |   leaf 25 [1]
+|   |   node 23 [6]
+|   |   |   leaf 26 [1]
+|   |   node 23 [6]
+|   |   |   node 27 [3]
+|   |   |   |   leaf 28 [1]
+|   |   |   node 27 [3]
+|   |   |   |   leaf 29 [1]
+|   |   |   node 27 [3]
+|   |   |   |   leaf 30 [1]
+|   node 18 [24]
+|   |   node 31 [2]
+|   |   |   leaf 32 [1]
+|   |   node 31 [2]
+|   |   |   leaf 33 [1]
+|   node 18 [24]
+|   |   node 34 [3]
+|   |   |   leaf 35 [1]
+|   |   node 34 [3]
+|   |   |   leaf 36 [1]
+|   |   node 34 [3]
+|   |   |   leaf 37 [1]
+|   node 18 [24]
+|   |   node 38 [10]
+|   |   |   leaf 39 [1]
+|   |   node 38 [10]
+|   |   |   node 40 [8]
+|   |   |   |   leaf 41 [1]
+|   |   |   node 40 [8]
+|   |   |   |   node 42 [3]
+|   |   |   |   |   leaf 43 [1]
+|   |   |   |   node 42 [3]
+|   |   |   |   |   leaf 44 [1]
+|   |   |   |   node 42 [3]
+|   |   |   |   |   leaf 45 [1]
+|   |   |   node 40 [8]
+|   |   |   |   node 46 [3]
+|   |   |   |   |   leaf 47 [1]
+|   |   |   |   node 46 [3]
+|   |   |   |   |   leaf 48 [1]
+|   |   |   |   node 46 [3]
+|   |   |   |   |   leaf 49 [1]
+|   |   |   node 40 [8]
+|   |   |   |   leaf 50 [1]
+|   |   node 38 [10]
+|   |   |   leaf 51 [1]
+node 0 [50]
+|   node 52 [13]
+|   |   node 53 [6]
+|   |   |   leaf 54 [1]
+|   |   node 53 [6]
+|   |   |   leaf 55 [1]
+|   |   node 53 [6]
+|   |   |   node 56 [3]
+|   |   |   |   leaf 57 [1]
+|   |   |   node 56 [3]
+|   |   |   |   leaf 58 [1]
+|   |   |   node 56 [3]
+|   |   |   |   leaf 59 [1]
+|   |   node 53 [6]
+|   |   |   leaf 60 [1]
+|   node 52 [13]
+|   |   leaf 61 [1]
+|   node 52 [13]
+|   |   leaf 62 [1]
+|   node 52 [13]
+|   |   node 63 [4]
+|   |   |   leaf 64 [1]
+|   |   node 63 [4]
+|   |   |   leaf 65 [1]
+|   |   node 63 [4]
+|   |   |   leaf 66 [1]
+|   |   node 63 [4]
+|   |   |   leaf 67 [1]
+|   node 52 [13]
+|   |   leaf 68 [1]
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 1       2 (  4%)
+ 4       1 (  2%)
+ 5       1 (  2%)
+ 6       1 (  2%)
+ 7       1 (  2%)
+ 8       2 (  4%)
+10       1 (  2%)
+11       1 (  2%)
+12       2 (  4%)
+13       1 (  2%)
+14       1 (  2%)
+15       1 (  2%)
+16       1 (  2%)
+17       1 (  2%)
+21       1 (  2%)
+22       1 (  2%)
+25       1 (  2%)
+26       1 (  2%)
+28       1 (  2%)
+29       1 (  2%)
+30       1 (  2%)
+33       1 (  2%)
+35       1 (  2%)
+37       1 (  2%)
+38       3 (  6%)
+39       2 (  4%)
+43       1 (  2%)
+44       1 (  2%)
+47       1 (  2%)
+48       1 (  2%)
+50       1 (  2%)
+51       1 (  2%)
+54       1 (  2%)
+55       1 (  2%)
+57       1 (  2%)
+58       1 (  2%)
+59       1 (  2%)
+60       2 (  4%)
+62       1 (  2%)
+64       1 (  2%)
+65       1 (  2%)
+66       1 (  2%)
+67       1 (  2%)
+
