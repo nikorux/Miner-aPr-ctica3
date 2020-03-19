@@ -1,0 +1,68 @@
+@RELATION Series
+
+@ATTRIBUTE Nombre {The_Leftovers,Parks_and_Recreation,Breaking_Bad,BoJack_Horseman,Fleabag,The_Americans,Atlanta,Justified,Rectify,Better_Things,Better_Call_Saul,Terriers,Community,Twin_Peaks_The_Return,Game_of_Thrones,Fargo,Hannibal,Halt_and_Catch_Fire,Bobs_Burgers,Review,Orange_Is_the_New_Black,Crazy_Ex-Girlfriend,Brockmire,Brooklyn_Nine-Nine,Watchmen,Boardwalk_Empire,Veep,Broad_City,Treme,Enlightened,The_Good_Place,Catastrophe,Key_&_Peele,The_Deuce,The_Legend_of_Korra,Youre_the_Worst,Master_of_None,Pose,Girls,Steven_Universe,Mr_Robot,Transparent,Gravity_Falls,Jane_the_Virgin,Parenthood,New_Girl,Men_of_a_Certain_Age,Banshee,Baskets,The_Good_Wife}
+@ATTRIBUTE 'Genero principal'{Fantasia,Comedia,Drama,Animacion,Accion,Thriller}
+@ATTRIBUTE 'Pais de origen' {Estados_Unidos,Reino_Unido}
+@ATTRIBUTE 'Cantidad de temporadas' INTEGER 
+@ATTRIBUTE 'Cantidad de episodios' INTEGER 
+@ATTRIBUTE 'Duracion del episodio' INTEGER 
+@ATTRIBUTE 'Personaje principal' {Femenino,Masculino,Reparto_coral}
+@ATTRIBUTE 'Canal o plataforma'{HBO,NBC,AMC,Netflix,BBC_Three,FX,Sundance_TV,Showtime,FOX,Comedy_Central,IFC,Channel_4,Nickelodeon,Cartoon_Network,USA_Network,Prime_Video,Disney_Channel,The_CW,TNT,Cinemax,CBS}
+@ATTRIBUTE 'Camara setup'{Multicamara,Monocamara,Ninguna}
+@ATTRIBUTE 'Año primera emision' INTEGER 
+@ATTRIBUTE 'Año ultima emision' INTEGER 
+@ATTRIBUTE 'Idioma original' {Ingles,Ingles_Apalache}
+@ATTRIBUTE 'Puntuacion IMDb' NUMERIC
+@ATTRIBUTE 'Clasificacion por edades' {G,PG,PG-13,R,NC-17}
+
+@DATA
+The_Leftovers,Fantasia,Estados_Unidos,3,28,60,Reparto_coral,HBO,Monocamara,2014,2017,Ingles,8.3,NC-17
+Parks_and_Recreation,Comedia,Estados_Unidos,7,125,22,Reparto_coral,NBC,Monocamara,2009,2015,Ingles,8.6,G
+Breaking_Bad,Drama,Estados_Unidos,5,62,49,Reparto_coral,AMC,Monocamara,2008,2013,Ingles,9.5,R
+BoJack_Horseman,Animacion,Estados_Unidos,6,77,25,Masculino,Netflix,Ninguna,2014,2020,Ingles,8.7,R
+Fleabag,Comedia,Reino_Unido,2,12,27,Reparto_coral,BBC_Three,Monocamara,2016,2019,Ingles,8.7,NC-17
+The_Americans,Drama,Estados_Unidos,6,75,45,Reparto_coral,FX,Monocamara,2013,2018,Ingles,8.4,R
+Atlanta,Comedia,Estados_Unidos,2,21,30,Reparto_coral,FX,Monocamara,2016,?,Ingles,8.6,NC-17
+Justified,Accion,Estados_Unidos,6,78,44,Masculino,FX,Monocamara,2010,2015,Ingles_Apalache,8.6,R
+Rectify,Drama,Estados_Unidos,4,30,60,Reparto_coral,Sundance_TV,Monocamara,2013,2016,Ingles,8.3,G
+Better_Things,Comedia,Estados_Unidos,3,32,22,Reparto_coral,FX,Monocamara,2016,?,Ingles,7.7,NC-17
+Better_Call_Saul,Drama,Estados_Unidos,4,40,45,Reparto_coral,AMC,Monocamara,2015,?,Ingles,8.7,R
+Terriers,Comedia,Estados_Unidos,1,13,45,Reparto_coral,FX,Monocamara,2010,2010,Ingles,8.4,G
+Community,Comedia,Estados_Unidos,6,110,20,Reparto_coral,NBC,Monocamara,2009,2015,Ingles,8.5,G
+Twin_Peaks_The_Return,Drama,Estados_Unidos,1,18,60,Reparto_coral,Showtime,Monocamara,2017,2017,Ingles,8.5,R
+Game_of_Thrones,Fantasia,Estados_Unidos,8,73,60,Reparto_coral,HBO,Monocamara,2011,2019,Ingles,9.3,NC-17
+Fargo,Thriller,Estados_Unidos,3,30,53,Reparto_coral,FX,Monocamara,2014,?,Ingles,8.9,NC-17
+Hannibal,Thriller,Estados_Unidos,3,39,44,Reparto_coral,NBC,Monocamara,2013,2015,Ingles,8.5,NC-17
+Halt_and_Catch_Fire,Drama,Estados_Unidos,4,40,60,Reparto_coral,AMC,Monocamara,2014,2017,Ingles,8.4,G
+Bobs_Burgers,Animacion,Estados_Unidos,8,150,22,Reparto_coral,FOX,Ninguna,2011,?,Ingles,8.1,G
+Review,Comedia,Estados_Unidos,3,22,30,Reparto_coral,Comedy_Central,Monocamara,2014,2017,Ingles,8.3,G
+Orange_Is_the_New_Black,Comedia,Estados_Unidos,7,91,60,Reparto_coral,Netflix,Monocamara,2013,2019,Ingles,8.1,R
+Crazy_Ex-Girlfriend,Comedia,Estados_Unidos,4,62,42,Reparto_coral,The_CW,Monocamara,2015,2019,Ingles,7.8,R
+Brockmire,Comedia,Estados_Unidos,3,24,30,Reparto_coral,IFC,Monocamara,2017,?,Ingles,8,G
+Brooklyn_Nine-Nine,Comedia,Estados_Unidos,6,130,22,Reparto_coral,FOX,Monocamara,2013,?,Ingles,8.4,PG-13
+Watchmen,Drama,Estados_Unidos,1,9,60,Reparto_coral,HBO,Monocamara,2019,?,Ingles,8.1,R
+Boardwalk_Empire,Drama,Estados_Unidos,5,56,55,Reparto_coral,HBO,Monocamara,2010,2014,Ingles,8.5,PG
+Veep,Comedia,Estados_Unidos,7,65,30,Reparto_coral,HBO,Monocamara,2012,2019,Ingles,8.3,PG
+Broad_City,Comedia,Estados_Unidos,5,50,22,Reparto_coral,Comedy_Central,Monocamara,2014,2019,Ingles,8.4,G
+Treme,Drama,Estados_Unidos,4,36,60,Reparto_coral,HBO,Monocamara,2010,2013,Ingles,8.2,G
+Enlightened,Comedia,Estados_Unidos,2,18,30,Reparto_coral,HBO,Monocamara,2011,2013,Ingles,7.5,G
+The_Good_Place,Comedia,Estados_Unidos,4,53,22,Reparto_coral,NBC,Monocamara,2016,2020,Ingles,8.2,PG-13
+Catastrophe,Comedia,Reino_Unido,3,18,25,Reparto_coral,Channel_4,Monocamara,2015,2019,Ingles,8.2,R
+Key_&_Peele,Comedia,Estados_Unidos,5,53,30,Reparto_coral,Comedy_Central,Multicamara,2012,2015,Ingles,8.3,G
+The_Deuce,Drama,Estados_Unidos,3,25,60,Reparto_coral,HBO,Monocamara,2017,2019,Ingles,8.1,NC-17
+The_Legend_of_Korra,Animacion,Estados_Unidos,4,52,23,Reparto_coral,Nickelodeon,Ninguna,2012,2014,Ingles,8.4,G
+Youre_the_Worst,Comedia,Estados_Unidos,5,62,30,Reparto_coral,FX,Monocamara,2014,2019,Ingles,8.1,NC-17
+Master_of_None,Comedia,Estados_Unidos,2,20,30,Reparto_coral,Netflix,Monocamara,2015,?,Ingles,8.3,PG-13
+Pose,Drama,Estados_Unidos,2,18,60,Reparto_coral,FX,Monocamara,2018,?,Ingles,8.6,R
+Girls,Comedia,Estados_Unidos,6,62,30,Reparto_coral,HBO,Monocamara,2012,2017,Ingles,7.3,G
+Steven_Universe,Animacion,Estados_Unidos,5,160,11,Reparto_coral,Cartoon_Network,Ninguna,2013,?,Ingles,8.3,G
+Mr_Robot,Drama,Estados_Unidos,4,45,49,Reparto_coral,USA_Network,Monocamara,2015,2019,Ingles,8.5,R
+Transparent,Comedia,Estados_Unidos,5,41,30,Reparto_coral,Prime_Video,Monocamara,2014,2019,Ingles,7.8,R
+Gravity_Falls,Animacion,Estados_Unidos,2,40,23,Reparto_coral,Disney_Channel,Ninguna,2012,2016,Ingles,8.9,G
+Jane_the_Virgin,Comedia,Estados_Unidos,5,100,60,Reparto_coral,The_CW,Monocamara,2014,2019,Ingles,7.8,PG-13
+Parenthood,Comedia,Estados_Unidos,6,103,60,Reparto_coral,NBC,Monocamara,2010,2015,Ingles,8.2,G
+New_Girl,Comedia,Estados_Unidos,7,146,22,Reparto_coral,FOX,Monocamara,2011,2018,Ingles,7.7,PG-13
+Men_of_a_Certain_Age,Comedia,Estados_Unidos,2,22,60,Reparto_coral,TNT,Monocamara,2009,2011,Ingles,8,G
+Banshee,Drama,Estados_Unidos,4,38,60,Reparto_coral,Cinemax,Monocamara,2013,2016,Ingles,8.4,NC-17
+Baskets,Comedia,Estados_Unidos,3,30,30,Reparto_coral,FX,Monocamara,2016,2019,Ingles,7.5,G
+The_Good_Wife,Drama,Estados_Unidos,7,156,45,Reparto_coral,CBS,Monocamara,2009,2016,Ingles,8.3,PG-13
